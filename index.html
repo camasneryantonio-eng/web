@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metaetiquetas Obligatorias y SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanStride | Zapatillas Urbanas & Deportivas - UCH</title>
+    <meta name="description" content="Tienda oficial de UrbanStride. Encuentra las mejores zapatillas urbanas, deportivas y exclusivas. Proyecto Académico UCH.">
+    <meta name="keywords" content="zapatillas, sneakers, moda urbana, calzado deportivo, HTML5, CSS3, UCH">
+    <meta name="author" content="Estudiante UCH">
+    
+    <!-- CDN de Font Awesome para los Íconos de Redes Sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Enlace a la Hoja de Estilos CSS3 Externa -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Encabezado Principal y Navegación -->
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>N<span>CO</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+                    <li><a href="#multimedia" class="nav-link">Multimedia</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container">
+
+        <!-- Sección Hero -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-text">
+                <h2>Define tu Estilo Urbano</h2>
+                <p>Descubre la nueva colección de zapatillas, más actualizada a buen precio y buenas marcas.</p>
+                <a href="#catalogo" class="btn-primary">Ver Colección</a>
+            </div>
+        </section>
+
+        <!-- Catálogo de Zapatillas -->
+        <section id="catalogo">
+            <h2 class="section-title">Nuestras <span>Zapatillas</span></h2>
+            
+            <div class="products-grid">
+                <!-- Zapatilla 1 -->
+                <article class="product-card">
+                    <span class="badge-offer">NUEVO</span>
+                    <div class="product-img-wrapper">
+                        <img src="img 1.jpg" alt="Zapatilla Fuego Deportivo Pro">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-title">Fuego deportivo pro</h3>
+                            <p class="product-desc">Zapatilla deportiva de alto rendimiento con suela flexible y malla transpirable y resistente todo terreno.</p>
+                        </div>
+                        <div>
+                            <div class="price-container">
+                                <span class="price-current">S/ 468.00</span>
+                                <span class="price-old">S/ 350.00</span>
+                            </div>
+                            <a href="#" class="btn-buy">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Zapatilla 2 -->
+                <article class="product-card">
+                    <span class="badge-offer">-20% OFF</span>
+                    <div class="product-img-wrapper">
+                        <img src="img 2.jpg" alt="Zapatilla Estilo Urbano Marrón">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-title">Estilo urbano en color marrón</h3>
+                            <p class="product-desc">Diseño clásico retro urbano ideal para el uso diario y máximo confort.</p>
+                        </div>
+                        <div>
+                            <div class="price-container">
+                                <span class="price-current">S/ 249.00</span>
+                                <span class="price-old">S/ 310.00</span>
+                            </div>
+                            <a href="#" class="btn-buy">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Zapatilla 3 -->
+                <article class="product-card">
+                    <span class="badge-offer">EXCLUSIVO</span>
+                    <div class="product-img-wrapper">
+                        <img src="img 3.jpg" alt="Zapatilla Aire Futuro Neón">
+                    </div>
+                    <div class="product-info">
+                        <div>
+                            <h3 class="product-title">Aire futuro Neón</h3>
+                            <p class="product-desc">Edición limitada con detalles reflectantes y cápsula de aire de impacto.</p>
+                        </div>
+                        <div>
+                            <div class="price-container">
+                                <span class="price-current">S/ 389.00</span>
+                            </div>
+                            <a href="#" class="btn-buy">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección Multimedia -->
+        <section id="multimedia" class="media-section">
+            <h2 class="section-title">Experiencia <span>multimedia</span></h2>
+            <div class="media-flex">
+                <!-- Audio Spot -->
+                <div class="media-box">
+                    <h3>Spot Publicitario (Audio Local)</h3>
+                    <p>Escucha nuestro comercial oficial para la temporada 2026:</p>
+                    <audio controls class="audio-player">
+                        <source src="audio/miaudio.mp3" type="audio/mpeg">
+                        Tu navegador no soporta el reproductor de audio HTML5.
+                    </audio>
+                </div>
+
+                <!-- Video Promocional -->
+                <div class="media-box">
+                    <h3>Review Oficial (Iframe YouTube)</h3>
+                    <div class="iframe-responsive">
+                        <iframe 
+                            src="https://www.youtube.com/embed/fckPIEKZMzM?si=UHuw7-5FT9vDMVgZ&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Redes Sociales -->
+        <section id="contacto" class="social-section">
+            <h2 class="section-title">Redes <span>Oficiales</span></h2>
+            <p style="color: var(--text-muted);">¡Escríbenos para pedidos o síguenos para ver los nuevos lanzamientos!</p>
+
+            <ul class="social-links">
+                <!-- TikTok -->
+                <li>
+                    <a href="https://www.tiktok.com/@urbanstride" target="_blank" class="social-icon tiktok" title="TikTok">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+
+                <!-- Instagram -->
+                <li>
+                    <a href="https://www.instagram.com/urbanstride" target="_blank" class="social-icon instagram" title="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+
+                <!-- WhatsApp -->
+                <li>
+                    <a href="https://wa.me/51999999999" target="_blank" class="social-icon whatsapp" title="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </li>
+
+                <!-- Facebook -->
+                <li>
+                    <a href="https://www.facebook.com/urbanstride" target="_blank" class="social-icon facebook" title="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 NCO - Mejores zapatillas en nuestra empresa, vengan hay promociones.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
